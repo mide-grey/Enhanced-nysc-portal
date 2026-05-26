@@ -1,0 +1,302 @@
+{
+  "_comment": "NYSC AI Portal – Knowledge Base. Add new Q&A entries here to improve the chatbot.",
+  "_instructions": "Each entry has: 'question', 'answer', 'keywords' (for matching), 'category', and optional 'language'.",
+  "faqs": [
+
+    {
+      "id": "reg_001",
+      "category": "registration",
+      "question": "What are the requirements for NYSC registration?",
+      "keywords": ["register", "registration", "requirements", "documents", "how to register", "nysc registration"],
+      "answer": "To register for NYSC, you need:\n\n📋 **Required Documents:**\n• Original degree/HND certificate or a letter from your institution confirming completion\n• Official academic transcript\n• Birth certificate or age declaration\n• Valid Nigerian passport or National ID\n• Passport photographs (white background)\n• NYSC clearance from your institution\n\n🌐 **Steps:**\n1. Your institution submits your details to NYSC\n2. Visit portal.nysc.org.ng\n3. Click 'Online Registration'\n4. Fill in your biodata accurately\n5. Upload all required documents\n6. Print your call-up letter once approved\n\n⚠️ Ensure your name matches across ALL documents."
+    },
+
+    {
+      "id": "reg_002",
+      "category": "registration",
+      "question": "When does NYSC registration start?",
+      "keywords": ["when", "registration date", "registration start", "batch", "schedule", "registration period"],
+      "answer": "NYSC registration is done in **three batches per year**:\n\n📅 **Batch A** – Typically February–March\n📅 **Batch B** – Typically July–August\n📅 **Batch C** – Typically October–November\n\nExact dates are announced by NYSC headquarters. Check:\n• The official NYSC website: nysc.gov.ng\n• Your institution's NYSC desk\n• The NYSC portal: portal.nysc.org.ng\n\n💡 Your batch depends on when your institution submits your details to NYSC."
+    },
+
+    {
+      "id": "reg_003",
+      "category": "registration",
+      "question": "How do I get my call-up letter?",
+      "keywords": ["call-up", "callup", "call up letter", "get letter", "download letter", "print letter"],
+      "answer": "Your **NYSC Call-Up Letter** is your most important document. Here's how to get it:\n\n1️⃣ Visit **portal.nysc.org.ng**\n2️⃣ Log in with your registered email and password\n3️⃣ Navigate to **'Call-Up Letter'** in the menu\n4️⃣ Download and **print on A4 paper** (make multiple copies!)\n\n📌 **Important Tips:**\n• Your call-up letter contains your state of deployment, orientation camp details, and reporting date\n• Print at least 4 copies — you'll need them at camp\n• The letter is issued only after your institution completes your NYSC clearance\n• Contact your institution's NYSC coordinator if the letter is not available"
+    },
+
+    {
+      "id": "camp_001",
+      "category": "orientation_camp",
+      "question": "What should I pack for NYSC orientation camp?",
+      "keywords": ["pack", "bring", "camp items", "what to take", "orientation camp", "camp preparation", "camp packing", "luggage"],
+      "answer": "Here's your complete **NYSC Orientation Camp Packing List**:\n\n👕 **Clothing (All White):**\n• White shorts × 3\n• White T-shirts × 3\n• White canvas/trainers × 1–2 pairs\n• Personal casual clothes (for evenings)\n• Underwear (sufficient supply)\n• Rain jacket or light cardigan\n\n🛏️ **Bedding:**\n• Mattress (slim/foldable recommended)\n• Pillow\n• Bedsheet × 2\n• Mosquito net (essential!)\n\n🧴 **Toiletries:**\n• Soap, shampoo, toothbrush, toothpaste\n• Laundry detergent\n• Hand sanitizer\n• Insect repellent\n\n📄 **Documents (Very Important!):**\n• Call-up letter × 4 copies\n• Degree certificate (original + 2 copies)\n• Birth certificate\n• National ID / Passport\n• Passport photographs × 10\n\n💊 **Health:**\n• Personal medications (3+ week supply)\n• First aid basics (paracetamol, malaria drugs)\n\n🔦 **Utilities:**\n• Padlock (for your locker)\n• Flashlight/torchlight\n• Power bank\n• Plate, cup, cutlery\n\n⛔ **Do NOT Bring:**\n• Large sums of cash\n• Expensive jewelry or gadgets\n• Alcohol\n• Drugs\n\n💡 Camp lasts **approximately 3 weeks**."
+    },
+
+    {
+      "id": "camp_002",
+      "category": "orientation_camp",
+      "question": "How long is the orientation camp?",
+      "keywords": ["how long", "camp duration", "weeks", "days", "orientation period", "camp length"],
+      "answer": "NYSC Orientation Camp lasts **approximately 3 weeks (21 days)**.\n\nDuring camp you will:\n• Do physical drills and exercises in the mornings\n• Attend lectures on NYSC rules, rights, and responsibilities\n• Participate in skills acquisition programs\n• Attend social events, cultural nights, and sports\n• Register for your CDS group\n• Receive your state deployment posting letter\n\n📅 Attendance is **compulsory**. Absences are recorded and can affect your service year."
+    },
+
+    {
+      "id": "camp_003",
+      "category": "orientation_camp",
+      "question": "Can I leave orientation camp before it ends?",
+      "keywords": ["leave camp", "exit camp", "go home", "camp exit", "absent camp", "skip camp"],
+      "answer": "❌ **No, you cannot leave orientation camp without official permission.**\n\nLeaving without permission (absconding) is a serious offence that can result in:\n• Extension of your service year\n• Disciplinary action\n• Being recalled for a fresh orientation\n\n✅ **Legitimate reasons to exit early:**\n• Medical emergencies (with doctor's note)\n• Death of immediate family member\n• Other emergencies approved by the Camp Commandant\n\nAlways report any emergency to the **Camp Commandant** and get written permission before leaving."
+    },
+
+    {
+      "id": "allow_001",
+      "category": "allowance",
+      "question": "How much is the NYSC monthly allowance?",
+      "keywords": ["allowance", "stipend", "salary", "monthly pay", "how much", "money", "naira", "₦"],
+      "answer": "The current NYSC monthly **Federal Government Allowance (Allawee)** is **₦33,000** per month.\n\n💰 **Payment Details:**\n• Paid on or around the 27th of each month\n• Deposited directly to your registered NYSC bank account\n• You may also receive additional allowances from your PPA (Place of Primary Assignment)\n\n🏦 **To receive payment:**\n• Open an account with a NYSC-approved bank during registration\n• Ensure your BVN and account details are correctly entered on the NYSC portal\n• Update your bank details immediately if you change banks\n\n💡 Some states and PPAs offer supplementary allowances — check with your local NYSC office."
+    },
+
+    {
+      "id": "allow_002",
+      "category": "allowance",
+      "question": "When is NYSC allowance paid?",
+      "keywords": ["when is allowance", "payment date", "when paid", "allawee date", "stipend date", "27th"],
+      "answer": "NYSC allowances are typically paid **on or around the 27th of each month**.\n\n📆 Payment calendar:\n• January → 27th January\n• February → 27th February\n• (and so on...)\n\n⚠️ Delays can occur due to:\n• Bank account issues\n• Incorrect BVN or account number on the portal\n• Public holidays\n\nIf you don't receive payment by the **30th of the month**, visit your state NYSC secretariat with:\n• Your account statement\n• NYSC ID card\n• Printed payment complaint form from the portal"
+    },
+
+    {
+      "id": "reloc_001",
+      "category": "redeployment",
+      "question": "How do I apply for NYSC relocation or redeployment?",
+      "keywords": ["relocate", "relocation", "redeploy", "redeployment", "transfer", "change state", "move", "request transfer"],
+      "answer": "To apply for **NYSC Redeployment** (changing your state of deployment):\n\n📝 **Steps:**\n1. Log in to the NYSC portal: portal.nysc.org.ng\n2. Go to **'Redeployment'** or **'Relocation'** section\n3. Select your reason for redeployment\n4. Upload supporting documents\n5. Submit and track application status\n\n✅ **Valid Reasons:**\n• Medical condition (attach doctor's report + hospital letters)\n• Marriage to a serving corps member in another state\n• Security threats in deployed state (with proof)\n• Pregnancy (with medical documentation)\n\n❌ **Invalid Reasons:**\n• Personal preference\n• Disliking the state\n• Wanting to be near family\n\n⏳ Processing takes **2–6 weeks**. Approval is **not guaranteed** — it depends on NYSC management's discretion."
+    },
+
+    {
+      "id": "reloc_002",
+      "category": "redeployment",
+      "question": "Can I be deployed to my home state?",
+      "keywords": ["home state", "deploy home", "same state", "own state", "local government", "home deployment"],
+      "answer": "**Generally, No.** NYSC's policy is to deploy corps members **outside their state of origin** and **outside the state where they studied**.\n\nThis is intentional — it promotes national unity and integration!\n\n🏠 **Exceptions (very rare):**\n• Serious medical conditions requiring local treatment\n• Corps members with severe disabilities\n• Pregnant corps members (sometimes)\n\n💡 **Tip:** During registration, you can indicate **preferred states** but NYSC makes the final decision."
+    },
+
+    {
+      "id": "cds_001",
+      "category": "cds",
+      "question": "What is CDS in NYSC?",
+      "keywords": ["cds", "community development service", "what is cds", "cds meaning", "community service"],
+      "answer": "**CDS (Community Development Service)** is a key component of the NYSC programme.\n\n🤝 **What is CDS?**\nIt is a mandatory community service programme where corps members work in groups to contribute to the development of their host communities.\n\n📅 **When:**\n• Every **Thursday** is officially designated as CDS day\n• You must attend your CDS group meeting weekly\n\n👥 **Available CDS Groups (examples):**\n• Health CDS (medical outreach, health education)\n• Education CDS (teaching, literacy programmes)\n• Agriculture CDS (farming initiatives, food security)\n• Technology/ICT CDS (digital literacy, coding)\n• Legal Aid CDS (free legal advice to communities)\n• Environment CDS (tree planting, waste management)\n• Sports & Social Development CDS\n\n⚠️ **Attendance is mandatory.** Missing CDS without valid reason affects your:\n• Monthly allowance\n• Passing-out certificate\n• NYSC clearance at the end of service year"
+    },
+
+    {
+      "id": "cds_002",
+      "category": "cds",
+      "question": "How do I choose a CDS group?",
+      "keywords": ["choose cds", "join cds", "cds group", "pick cds", "select cds", "cds registration"],
+      "answer": "You **choose your CDS group during orientation camp** or in the first weeks after camp.\n\n📋 **How to join:**\n1. Attend the CDS fair/showcase at camp or at your state secretariat\n2. Choose a group that aligns with your skill, profession, or interest\n3. Register with the CDS group coordinator\n4. Confirm your CDS day (usually Thursdays) schedule\n\n💡 **Tips for choosing:**\n• Choose based on your skills/profession (doctors → Health CDS, engineers → Tech CDS)\n• Consider the group's impact and activity level\n• Talk to corps members already in the group\n• Your CDS attendance affects your allowance — choose a consistent group!\n\n🔄 You can **change your CDS group** by applying to your NYSC state coordinator within the first few months of service."
+    },
+
+    {
+      "id": "ppa_001",
+      "category": "ppa",
+      "question": "What is PPA in NYSC?",
+      "keywords": ["ppa", "place of primary assignment", "workplace", "employer", "posting", "where to work"],
+      "answer": "**PPA (Place of Primary Assignment)** is where you are posted to **work** during your service year.\n\n🏢 **Types of PPAs:**\n• Government ministries, departments, and agencies\n• Schools (primary, secondary, tertiary)\n• Hospitals and health centers\n• NGOs and international organizations\n• Private companies (in some cases)\n\n📍 **How PPA is assigned:**\n• NYSC assigns your PPA based on your degree, available vacancies, and location\n• You receive your PPA letter during or after orientation camp\n• Some corps members can suggest preferred PPAs — but NYSC has final say\n\n⚠️ **Change of PPA:**\nIf your PPA is unsuitable (non-functional, unsafe, or doesn't match your skills), you can apply for a change through your local government inspector or state NYSC coordinator."
+    },
+
+    {
+      "id": "ppa_002",
+      "category": "ppa",
+      "question": "What if my PPA is not functional or unsuitable?",
+      "keywords": ["ppa change", "change ppa", "bad ppa", "unsuitable ppa", "non-functional", "ppa problem"],
+      "answer": "If your PPA is non-functional, unsafe, or doesn't match your qualifications:\n\n✅ **Steps to Change Your PPA:**\n1. Visit your **Local Government Inspector (LGI)** and report the issue\n2. Request a **Change of PPA** form\n3. Provide reasons and supporting evidence (e.g., letter from the PPA confirming it's non-functional)\n4. Your LGI submits the request to the state secretariat\n5. A new PPA will be assigned to you\n\n🚫 **Do NOT:**\n• Stop reporting to your PPA without official approval (this counts as abscondment)\n• Take a job at a different workplace without NYSC's approval\n\n📍 Always keep reporting to your assigned PPA while the change is being processed."
+    },
+
+    {
+      "id": "cert_001",
+      "category": "certificate",
+      "question": "How do I collect my NYSC discharge certificate?",
+      "keywords": ["certificate", "discharge", "collect certificate", "passing out", "service certificate", "nysc certificate"],
+      "answer": "Your **NYSC Discharge Certificate** is issued at the end of your service year.\n\n📋 **Requirements before collection:**\n• Complete 12 months of service (or approved period)\n• Attend all CDS meetings regularly\n• Clear from your PPA (get a clearance letter)\n• Have zero disciplinary offences outstanding\n• Attend Passing-Out Parade (POP)\n\n🎓 **Steps to Collect:**\n1. Attend your state's **Passing-Out Parade (POP)**\n2. Clear with your CDS group coordinator\n3. Clear with your LGI (Local Government Inspector)\n4. Submit clearance forms at the state secretariat\n5. Your certificate is issued at the secretariat\n\n⏳ Some states issue certificates on the **same day as POP**; others take a few weeks.\n\n💡 **IMPORTANT:** Your discharge certificate is required for employment, further education, and official purposes in Nigeria. Guard it carefully!"
+    },
+
+    {
+      "id": "cert_002",
+      "category": "certificate",
+      "question": "What is the NYSC Passing-Out Parade (POP)?",
+      "keywords": ["pop", "passing out parade", "graduation", "end of service", "final parade", "passing out"],
+      "answer": "The **NYSC Passing-Out Parade (POP)** is the official ceremony marking the **end of your one-year service**.\n\n🎖️ **What happens at POP:**\n• Formal military-style parade\n• Award of discharge certificates\n• Recognition of outstanding corps members\n• State Governor or representative often presides\n\n📅 **Timing:**\n• Held at the end of each batch's service year (after 12 months)\n• Usually held at the state orientation camp or a major venue\n\n✅ **To participate in POP, you must:**\n• Have completed your full service year\n• Be cleared by your PPA, CDS, and LGI\n• Have no pending disciplinary issues\n\n⚠️ Missing POP without valid reason can delay your certificate."
+    },
+
+    {
+      "id": "exempt_001",
+      "category": "exemption",
+      "question": "Who is exempted from NYSC service?",
+      "keywords": ["exempt", "exemption", "who is exempted", "nysc exemption", "not serve", "skip nysc"],
+      "answer": "You may be **exempt from NYSC** service if you meet any of these criteria:\n\n✅ **Grounds for Exemption:**\n• You are **30 years or older** at the time of graduation\n• You graduated from a **foreign institution not accredited by NUC** (National Universities Commission)\n• You have a **permanent physical disability** that prevents national service\n• You are a **naturalized Nigerian citizen** in some cases\n\n📝 **How to Apply for Exemption:**\n1. Visit portal.nysc.org.ng\n2. Click on **'Exemption Application'**\n3. Select your reason for exemption\n4. Upload supporting documents (birth certificate, medical certificate, etc.)\n5. Submit and await approval\n\n📜 You will receive an **NYSC Exemption Certificate** instead of a Discharge Certificate. Both are equally valid for employment."
+    },
+
+    {
+      "id": "clear_001",
+      "category": "clearance",
+      "question": "How does NYSC clearance work?",
+      "keywords": ["clearance", "nysc clearance", "clear nysc", "clearance process", "final clearance", "end clearance"],
+      "answer": "**NYSC Clearance** happens at the **end of your service year** before you can collect your discharge certificate.\n\n📋 **Clearance Points (you must clear from all):**\n\n1. **PPA Clearance** – Get a letter from your employer confirming satisfactory service\n2. **CDS Clearance** – Your CDS group coordinator signs off on your attendance\n3. **LGI Clearance** – Your Local Government Inspector clears you based on conduct\n4. **State Secretariat Clearance** – Final clearance at the NYSC state office\n5. **NYSC Portal Clearance** – Update and confirm your status online\n\n⚠️ **You will NOT be cleared if you have:**\n• Poor CDS attendance\n• Disciplinary issues\n• Outstanding loans or debts to NYSC\n• Incomplete portal records\n\n💡 Start your clearance process **at least 1 month before POP** to avoid delays."
+    },
+
+    {
+      "id": "rule_001",
+      "category": "rules",
+      "question": "What are the rules and regulations at NYSC orientation camp?",
+      "keywords": ["rules", "regulations", "camp rules", "do and don't", "camp conduct", "laws", "offences"],
+      "answer": "**NYSC Camp Rules & Regulations:**\n\n✅ **You MUST:**\n• Wear your white NYSC uniform during all official activities\n• Attend all drills, lectures, and official programmes\n• Maintain cleanliness in your hostel/dormitory\n• Carry your ID card at all times\n• Respect camp officials and fellow corps members\n• Observe lights-out time (usually 10 PM)\n\n❌ **Strictly PROHIBITED:**\n• Leaving camp without permission (absconding)\n• Alcohol and illegal substances\n• Fighting or disruptive behavior\n• Using phones during drills or official activities\n• Bringing unauthorized visitors into the camp\n• Sexual harassment or misconduct\n\n⚖️ **Consequences for violations:**\n• Query and warning\n• Withdrawal of allowance\n• Extension of service year\n• Dismissal from NYSC in severe cases"
+    },
+
+    {
+      "id": "foreign_001",
+      "category": "foreign_graduates",
+      "question": "I studied abroad. Can I still do NYSC?",
+      "keywords": ["foreign", "abroad", "foreign graduate", "studied abroad", "overseas", "international student", "foreign degree"],
+      "answer": "**Yes!** Nigerian citizens who studied abroad and hold degrees from **NUC-accredited foreign institutions** are eligible for NYSC.\n\n📋 **Special Requirements for Foreign Graduates:**\n• Your institution must be **recognized by NUC** (National Universities Commission)\n• Your degree must be equivalent to a Nigerian first degree\n• You must be **under 30 years old** at the time of graduation\n\n🌐 **Additional Steps:**\n1. Get your certificate **verified** by the NUC (or relevant authority)\n2. Get a **statement of result** from your foreign institution\n3. Proceed to the NYSC portal to register as a **foreign graduate**\n4. The process is largely similar to local graduates\n\n💡 If your institution is NOT NUC-accredited, you may be **exempted** from NYSC and will receive an exemption certificate instead."
+    },
+
+    {
+      "id": "portal_001",
+      "category": "portal",
+      "question": "How do I register on the NYSC portal?",
+      "keywords": ["portal", "nysc portal", "create account", "portal registration", "portal.nysc.org.ng", "online registration"],
+      "answer": "Here's how to register on the **NYSC Portal (portal.nysc.org.ng)**:\n\n🌐 **Step-by-Step:**\n1. Visit **portal.nysc.org.ng**\n2. Click **'Pre-NYSC Registration'** or **'Online Registration'**\n3. Enter your institution, course, and graduation year\n4. Fill in your personal biodata carefully\n5. Upload your photograph (white background, JPEG, < 1MB)\n6. Upload your degree certificate and other documents\n7. Generate and print your **pre-registration slip**\n8. Your institution verifies and submits your data to NYSC\n9. Return to the portal to complete registration and print your **call-up letter**\n\n⚠️ **Common Mistakes to Avoid:**\n• Wrong date of birth\n• Name mismatch (ensure name matches your certificate exactly)\n• Blurry or wrong-size passport photograph\n• Using an email you don't have access to"
+    },
+
+    {
+      "id": "health_001",
+      "category": "health",
+      "question": "Is there healthcare at NYSC camp?",
+      "keywords": ["health", "hospital", "medical", "sick", "healthcare", "doctor", "infirmary", "camp health"],
+      "answer": "**Yes**, NYSC orientation camps have a **Sick Bay / Infirmary**.\n\n🏥 **Medical Facilities at Camp:**\n• Each camp has a sick bay with basic medical care\n• Camp doctors and nurses are usually on duty\n• Basic medications are provided free\n\n💊 **What to Bring:**\n• Your personal medications (for chronic conditions)\n• Malaria prevention drugs (malaria is common in many states)\n• Allergy medications if applicable\n• Inform the sick bay of any serious health conditions on arrival\n\n🆘 **For Serious Emergencies:**\n• Serious cases are referred to the nearest government hospital\n• Inform your family of the camp medical facility's contact\n\n💡 Bring a sufficient supply of **any prescription medications** — camp pharmacies may not stock specialized drugs."
+    },
+
+    {
+      "id": "bank_001",
+      "category": "banking",
+      "question": "Which bank should I use for NYSC allowance?",
+      "keywords": ["bank", "banking", "which bank", "nysc bank", "allowance bank", "payment bank", "open account"],
+      "answer": "NYSC works with **designated banks** for allowance payment. These typically include major Nigerian banks:\n\n🏦 **Common NYSC-Partner Banks:**\n• Access Bank\n• First Bank of Nigeria\n• GTBank (Guaranty Trust Bank)\n• UBA (United Bank for Africa)\n• Zenith Bank\n• Polaris Bank\n• Union Bank\n• Others may be available in your state\n\n📝 **To Set Up Your Payment Account:**\n1. During camp or registration, you'll be asked to open/use a bank account\n2. Ensure your **BVN** is linked to the account\n3. Enter your account number **carefully** on the NYSC portal\n4. The account must be a **savings account** in your name only\n\n⚠️ Any error in your account number = **delayed or lost payment**. Double-check everything!"
+    },
+
+    {
+      "id": "abscond_001",
+      "category": "discipline",
+      "question": "What happens if I abscond from NYSC?",
+      "keywords": ["abscond", "absconding", "leave", "escape", "run away", "skip service", "miss camp"],
+      "answer": "**Absconding from NYSC is a serious offence.** Here are the consequences:\n\n⛔ **Penalties for Absconding:**\n• Your name will be flagged in the NYSC database\n• Your allowance will be suspended\n• You may be recalled for a **fresh orientation camp**\n• Your service year may be **extended**\n• In severe cases, you may be **dismissed** from the programme\n\n📋 **If you must be away from camp/service urgently:**\n• Report to the **Camp Commandant** or **LGI** immediately\n• Get **written permission** before leaving\n• Provide documentation for your reason (medical, emergency, etc.)\n\n💡 Always communicate — NYSC officials understand genuine emergencies. What they won't tolerate is disappearing without a word."
+    },
+
+    {
+      "id": "skill_001",
+      "category": "skills",
+      "question": "What is the NYSC Skills Acquisition Programme?",
+      "keywords": ["skills", "acquisition", "sap", "skill programme", "training", "vocational", "skill acquisition"],
+      "answer": "The **NYSC Skills Acquisition and Entrepreneurship Development (SAED)** Programme is designed to equip corps members with practical skills.\n\n🎯 **Purpose:**\n• Reduce youth unemployment after service year\n• Give corps members marketable skills\n• Promote entrepreneurship\n\n🛠️ **Available Skills (examples):**\n• ICT (web design, software development, digital marketing)\n• Fashion Design & Tailoring\n• Catering & Confectionery\n• Soap/Cream Production\n• Photography & Videography\n• Hair Styling & Beauty\n• Electrical Installation\n• Agriculture & Farming\n\n📅 **When:**\n• Introduced during orientation camp\n• Continued at skill centers in your state throughout the service year\n\n💡 Take this seriously — many corps members start businesses from skills learned here!"
+    },
+
+    {
+      "id": "nysc_001",
+      "category": "general",
+      "question": "What is NYSC and why is it important?",
+      "keywords": ["what is nysc", "nysc meaning", "national youth service corps", "why nysc", "nysc purpose", "nysc importance"],
+      "answer": "**NYSC (National Youth Service Corps)** is a Nigerian government programme established in 1973.\n\n🇳🇬 **Purpose:**\n• Promote **national unity** among Nigerian youth\n• Develop young graduates through **service and training**\n• Bridge ethnic, religious, and regional divides\n• Contribute to **national development**\n\n📋 **Who Must Participate:**\n• Nigerian citizens who obtained a degree, HND, or equivalent before age 30\n• Graduates from recognized Nigerian and foreign institutions\n\n⏳ **Duration:** 1 year (divided into 3 phases)\n1. **Orientation Phase** – 3 weeks at camp\n2. **Primary Assignment Phase** – Working at your PPA\n3. **Community Development Phase** – CDS activities\n\n🎓 **Why It Matters:**\n• Required for most government and major private sector jobs\n• Discharge certificate is needed for further education in some institutions\n• Builds character, discipline, and national consciousness"
+    }
+    ,
+    {
+      "id": "gen_002",
+      "category": "general",
+      "question": "What time should I report to orientation camp?",
+      "keywords": ["report time", "reporting time", "report to camp", "when to report"],
+      "answer": "Your call-up letter contains your exact reporting date and time. Generally, you should arrive at the orientation camp **on the date indicated on your call-up letter**, often before noon. Aim to arrive a day earlier if travel is long. Always travel with printed copies of your call-up letter and ID documents."
+    },
+
+    {
+      "id": "doc_002",
+      "category": "documents",
+      "question": "What if I lose my call-up letter or it gets damaged?",
+      "keywords": ["lost call-up", "replace callup", "call-up lost", "damaged call up"],
+      "answer": "If you lose your call-up letter: \n1. Log in to the NYSC portal (portal.nysc.org.ng) and re-download a fresh copy if available. \n2. If it's not available online, contact your institution's NYSC desk or the state NYSC secretariat for assistance. \n3. Carry other supporting ID (student ID, degree certificate, passport) when traveling in case of issues."
+    },
+
+    {
+      "id": "personal_001",
+      "category": "personal_info",
+      "question": "How do I change my name or correct a mistake on the portal?",
+      "keywords": ["change name", "name correction", "portal name", "correct name"],
+      "answer": "To correct your name on the NYSC portal: \n1. Contact your institution's NYSC desk immediately — they usually submit corrections to NYSC on your behalf. \n2. Provide original supporting documents (e.g., birth certificate, affidavit, degree certificate). \n3. NYSC will verify and update your record; only then will the corrected name reflect on call-up letters and certificates. Do not wait until camp to report name errors."
+    },
+
+    {
+      "id": "bank_002",
+      "category": "banking",
+      "question": "How can I update my bank account or BVN for allowance payment?",
+      "keywords": ["update bank", "change bank", "BVN update", "allowance bank change"],
+      "answer": "To update bank or BVN: \n1. Log in to the NYSC portal and check the payment/bank details section. Some changes can be made online. \n2. If not available online, visit your state NYSC secretariat or the bank during registration/camp with valid ID and BVN documents. \n3. Confirm the update on the portal and keep proof (screenshot or receipt). Changes may take a payment cycle to take effect."
+    },
+
+    {
+      "id": "appeal_001",
+      "category": "appeal",
+      "question": "Can I appeal or request a review of my state of deployment?",
+      "keywords": ["appeal deployment", "change state", "deployment review", "appeal posting"],
+      "answer": "NYSC deployment is usually final, but you can submit a redeployment/redeployment request for valid reasons (medical, marriage, security). Follow the portal process under 'Redeployment' and provide supporting documents. Appeals based solely on personal preference are rarely successful. The review process can take several weeks."
+    },
+
+    {
+      "id": "lgi_001",
+      "category": "structure",
+      "question": "What is a Local Government Inspector (LGI)?",
+      "keywords": ["LGI", "local government inspector", "who is LGI", "LGI role"],
+      "answer": "A **Local Government Inspector (LGI)** is the NYSC official responsible for supervising corps members at the local government level. The LGI handles PPA visits, clearance, attendance records, and local discipline matters. If you have workplace issues or need a PPA change, contact your LGI."
+    },
+
+    {
+      "id": "preg_001",
+      "category": "health",
+      "question": "What is the NYSC policy for pregnant corps members?",
+      "keywords": ["pregnant", "pregnancy", "pregnant corps member", "maternity"],
+      "answer": "Pregnant corps members are usually allowed to attend camp if medically fit, but they must disclose pregnancy during registration. NYSC may make arrangements for medical support and adjust duties. In some cases, pregnant corps members may be deployed carefully or given medical leave. Always inform camp medical officers and carry medical records."
+    },
+
+    {
+      "id": "repeat_001",
+      "category": "eligibility",
+      "question": "Can I do NYSC more than once?",
+      "keywords": ["do nysc twice", "again nysc", "repeat nysc"],
+      "answer": "No. NYSC is a **one-time mandatory service** for eligible graduates. Once you have completed NYSC and received your discharge certificate (or exemption certificate where applicable), you do not serve again. Attempting to register twice is not allowed."
+    },
+
+    {
+      "id": "replace_001",
+      "category": "documents",
+      "question": "How do I get a replacement for a lost NYSC certificate?",
+      "keywords": ["replacement certificate", "lost certificate", "get certificate again", "duplicate certificate"],
+      "answer": "If you lose your NYSC discharge certificate: \n1. Report the loss to the state NYSC secretariat and obtain a police report. \n2. Apply for a replacement certificate at the state secretariat and submit required documents (ID, affidavit, police report, evidence of service). \n3. Pay any applicable fees. Processing times vary by state."
+    },
+
+    {
+      "id": "marriage_001",
+      "category": "personal",
+      "question": "Can married women be deployed to their husband's state?",
+      "keywords": ["married women", "deploy to husband's state", "marriage redeployment", "spouse state"],
+      "answer": "Marriage to a serving corps member is a recognized reason for redeployment, but approval is discretionary. To request redeployment to your husband's state, submit an application on the NYSC portal with a marriage certificate and supporting documents. The request is considered but not guaranteed."
+    },
+
+    {
+      "id": "medical_002",
+      "category": "health",
+      "question": "How do I apply for medical exemption due to a chronic condition?",
+      "keywords": ["medical exemption", "chronic condition", "exemption medical", "health exemption"],
+      "answer": "To apply for medical exemption: \n1. Get a comprehensive medical report from a recognized government hospital detailing your condition and why you cannot serve. \n2. Apply via the NYSC portal under 'Exemption Application' and upload medical documents. \n3. Await review — medical exemptions require thorough verification and may take time."
+    }
+  ]
+}

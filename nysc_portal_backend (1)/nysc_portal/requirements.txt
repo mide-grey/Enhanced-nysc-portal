@@ -1,0 +1,36 @@
+# ─── Core Framework ───────────────────────────────────────────
+Django==4.2.11
+djangorestframework==3.14.0
+
+# ─── Authentication ───────────────────────────────────────────
+djangorestframework-simplejwt==5.3.1
+django-allauth==0.57.0
+
+# ─── Database & Environment ───────────────────────────────────
+python-decouple==3.8
+Pillow==10.2.0
+
+# ─── CORS (for frontend integration) ─────────────────────────
+django-cors-headers==4.3.1
+
+# ─── Filtering & Search ───────────────────────────────────────
+django-filter==23.5
+
+# ─── API Documentation ────────────────────────────────────────
+drf-spectacular==0.27.1
+
+# ─── AI / NLP (chatbot) ───────────────────────────────────────
+openai==1.12.0
+nltk==3.8.1
+
+# ─── Voice / Speech ───────────────────────────────────────────
+SpeechRecognition==3.10.1
+gTTS==2.5.0
+
+# ─── Notifications ────────────────────────────────────────────
+django-notifications-hq==1.8.3
+
+# ─── Utilities ────────────────────────────────────────────────
+python-slugify==8.0.4
+Markdown==3.5.2
+requests==2.31.0
