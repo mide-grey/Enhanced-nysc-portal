@@ -1,0 +1,21 @@
+{
+  "_comment": "Add custom Q&A pairs here to improve chatbot responses. These are checked FIRST before AI.",
+  "custom_responses": [
+    {
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening", "start"],
+      "response": "Hello! 👋 Welcome to the NYSC AI Assistant!\n\nI'm here to help you with everything related to the National Youth Service Corps. You can ask me about:\n\n• 📋 Registration & Call-up Letter\n• 🏕️ Orientation Camp Preparation\n• 💰 Monthly Allowance\n• 📍 Posting & Redeployment\n• 🤝 CDS Groups\n• 🎓 Discharge Certificate\n• 📄 Exemption\n\nWhat would you like to know today?"
+    },
+    {
+      "patterns": ["thank you", "thanks", "thank u", "appreciate", "helpful"],
+      "response": "You're welcome! 😊 I'm glad I could help.\n\nIf you have any more questions about NYSC — whether it's about camp preparation, allowances, redeployment, or anything else — feel free to ask anytime!\n\n🍀 Best of luck with your service year!"
+    },
+    {
+      "patterns": ["bye", "goodbye", "see you", "later", "exit"],
+      "response": "Goodbye! 👋 Best of luck with your NYSC journey!\n\nRemember, you can always come back to ask more questions. 🇳🇬"
+    },
+    {
+      "patterns": ["nysc portal", "portal link", "portal website", "portal url"],
+      "response": "The official NYSC portal is:\n\n🌐 **portal.nysc.org.ng** — for registration, call-up letters, redeployment\n🌐 **nysc.gov.ng** — official NYSC website for news and announcements\n\n💡 Always use the official websites and be cautious of fake NYSC portals."
+    }
+  ]
+}
