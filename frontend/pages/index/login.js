@@ -181,7 +181,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
   showSuccess(translations[currentLang].successLogin);
   
   setTimeout(() => {
-    window.location.href = '../index/';
+    window.location.href = '../home/index.html';
   }, 1500);
 });
 
@@ -264,6 +264,6 @@ function showSuccess(msg) {
 window.addEventListener('load', function() {
   const session = localStorage.getItem('nysc_session');
   if (session) {
-    window.location.href = '../index/';
+    window.location.href = '../home/index.html';
   }
 });

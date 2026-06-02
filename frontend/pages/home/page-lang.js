@@ -366,5 +366,5 @@ window.addEventListener('load', () => {
 
 function logout() {
   localStorage.removeItem('nysc_session');
-  window.location.href = '../login/';
+  window.location.href = '../index/';
 }
