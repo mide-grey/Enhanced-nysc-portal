@@ -538,6 +538,7 @@ const responses = {
       "Hi there! I'm Grey and I'm ready to assist with your NYSC questions.",
       "Welcome, Corps Member! I'm Grey — what do you need help with today?",
     ],
+    definition: "NYSC stands for the National Youth Service Corps. It is a one-year national service program for Nigerian graduates that builds civic responsibility, national unity, and practical work experience.",
     registration: `To register for NYSC, follow these steps:\n\n<ul><li><strong>Step 1:</strong> Visit the NYSC portal at <em>portal.nysc.org.ng</em></li><li><strong>Step 2:</strong> Click on "Online Registration" and create an account</li><li><strong>Step 3:</strong> Upload required documents (degree certificate, passport photograph, birth certificate)</li><li><strong>Step 4:</strong> Complete your biodata form</li><li><strong>Step 5:</strong> Print your call-up letter after approval</li></ul>\n\nRegistration is usually done by your institution. Ensure your NYSC clearance is completed before graduation.`,
     camp: `<strong>What to pack for NYSC Orientation Camp:</strong>\n\n<ul><li>White shorts and white T-shirts (at least 3 pairs)</li><li>White canvas shoes or trainers</li><li>Bedding: mattress cover, pillow, mosquito net</li><li>Toiletries and personal hygiene items</li><li>Medical prescriptions (if applicable)</li><li>Call-up letter and ID documents</li><li>Padlock for your locker</li><li>Flashlight/torchlight</li></ul>\n\nCamp typically lasts 3 weeks. Avoid bringing valuables or large sums of money.`,
     allowance: `The current NYSC monthly allowance (stipend) is <strong>₦77,000</strong> as approved by the Federal Government.\n\nThis is paid directly into your NYSC bank account. Additional allowances may be provided by your Place of Primary Assignment (PPA) depending on the employer.\n\nNote: Ensure your bank account details are correctly registered on the NYSC portal to avoid payment delays.`,
@@ -553,6 +554,7 @@ const responses = {
   },
   yo: {
     greeting: ["Ẹ káàbọ̀! Oruko mi ni Grey. Báwo ni mo ṣe lè ràn yín lọ́wọ́? 😊"],
+    definition: "NYSC túmọ̀ sí National Youth Service Corps. Ó jẹ́ ìṣọ̀kan iṣẹ́ ọdún kan fún àwọn akẹ́kọ̀ọ́ ti wọn ti kọ́kọ́ parí ẹ̀kọ́ wọn. Ó n ṣe agbega ìbáṣepọ̀ ọ̀dọ̀gbọ́n, ìṣọkan orílẹ̀-èdè, àti ìrírí iṣẹ́.",
     registration: "Láti forúkọ sílẹ̀ fún NYSC, ẹ lọ sí oju opo wẹẹbu NYSC (portal.nysc.org.ng) kí ẹ sì tẹ̀lé àwọn ìtọ́sọ́nà tí a pèsè sílẹ̀.",
     camp: "Fun ohun tí o yẹ kí o mú sọ́lẹ̀ fún NYSC Orientation Camp, o yẹ kí o ni shorts funfun, T-shirt funfun, ọkọ̀, àti ohun ìhùwà.",
     allowance: "Owó NYSC oṣùù jẹ́ ₦77,000 gẹ́gẹ́ bí ìjọba àpapọ̀ ti fọwọ́ sí.",
@@ -564,6 +566,7 @@ const responses = {
   },
   ha: {
     greeting: ["Barka da zuwa! Ni Grey ne. Yaya zan taimaka maka? 😊"],
+    definition: "NYSC na nufin National Youth Service Corps. Wannan shiri ne na aikin shekara guda ga matasan Najeriya, wanda aka tsara domin hade kasa da bayar da gogewar aiki.",
     registration: "Don yin rajista a NYSC, ziyarci shafin yanar gizon NYSC (portal.nysc.org.ng) ka bi umarnin da aka bayar.",
     camp: "Don abin da za a shirya domin sansanin NYSC, tabbatar akwai shorts da T-shirt na fari, takalma, da abubuwan lafiya.",
     allowance: "Alawus-alawus na wata-wata na NYSC shine ₦77,000 kamar yadda gwamnatin tarayya ta amince.",
@@ -575,6 +578,7 @@ const responses = {
   },
   ig: {
     greeting: ["Ndewo! Abụ m Grey. Kedu ihe m nwere ike inyere gị aka? 😊"],
+    definition: "NYSC pụtara National Youth Service Corps. Ọ bụ mmemme ọrụ otu afọ maka ndị gụsịrị akwụkwọ na Nigeria iji wulite ọrụ obodo, ijikọ mba ọnụ, na nye ahụmịhe ọrụ.",
     registration: "Iji ndebanye NYSC, gaa na portal NYSC (portal.nysc.org.ng), banye, wee soro usoro ndị a.",
     camp: "Maka ihe ị ga-ebu maka camp NYSC, mara shorts na T-shirt na-acha ọcha, akpụkpọ, na ihe ndị ọzọ.",
     allowance: "Ego NYSC kwa ọnwa bụ ₦77,000 dịka gọọmenti kwadoro.",
@@ -606,6 +610,8 @@ function getResponse(text) {
     return r("camp");
   if (/allowance|stipend|salary|pay|how much|₦|money/.test(t))
     return r("allowance");
+  if (/nysc\b|what is nysc|meaning of nysc|what does nysc mean/.test(t))
+    return r("definition");
   if (/relocat|redeployment|transfer|move state|change state/.test(t))
     return r("relocation");
   if (/cds|community development|group|weekly|service/.test(t))
@@ -788,18 +794,19 @@ function sendMessage() {
         data?.response ||
         data?.ai_response ||
         data?.message ||
-        "Sorry, I couldn't generate an answer right now.";
+        getResponse(text);
 
       if (data?.error) {
-        addMessage("Sorry, I encountered an error: " + data.error, "ai");
-        lastAssistantReply = "";
+        addMessage(reply, "ai");
+        showToast("Server error encountered. Answering locally.");
       } else {
         addMessage(reply, "ai");
-        lastAssistantReply = String(reply)
-          .replace(/<[^>]+>/g, " ")
-          .replace(/\s+/g, " ")
-          .trim();
       }
+
+      lastAssistantReply = String(reply)
+        .replace(/<[^>]+>/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
 
       updateReadReplyState();
       isTyping = false;
@@ -808,10 +815,13 @@ function sendMessage() {
     .catch((err) => {
       removeTyping();
       console.error("Error:", err);
-      addMessage(
-        "Sorry, I couldn't reach the server. Please try again.",
-        "ai"
-      );
+      const fallbackReply = getResponse(text);
+      addMessage(fallbackReply, "ai");
+      lastAssistantReply = String(fallbackReply)
+        .replace(/<[^>]+>/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+      showToast("Server unavailable. Answering locally.");
       isTyping = false;
       document.getElementById("sendBtn").disabled = false;
     });

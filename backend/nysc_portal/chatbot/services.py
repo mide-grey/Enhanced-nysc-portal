@@ -98,6 +98,27 @@ NYSC_KNOWLEDGE = {
         ),
         'allowance': "Owó oṣùù NYSC jẹ́ ₦77,000 gẹ́gẹ́ bí ìjọba àpapọ̀ ti fọwọ́ sí.",
         'registration': "Láti forúkọ sílẹ̀ fún NYSC, ẹ lọ sí portal.nysc.org.ng kí ẹ sì tẹ̀lé àwọn ìtọ́sọ́nà tí a pèsè sílẹ̀.",
+        'camp': (
+            "Àwọn ohun tí o yẹ kí o mú lọ sí NYSC Orientation Camp ni: \n"
+            "• Shorts funfun ati T-shirt funfun \n"
+            "• Bọ́ọ̀dì, aṣọ ibusun, ati apoti egboogi \n"
+            "• Awọn ohun iṣọra ara ẹni \n"
+            "• Lẹ́tà call-up ati ID rẹ \n"
+            "• Tẹ́lẹ̀ kí o ma ṣetọju ohun ìní tó pọ̀."
+        ),
+        'relocation': (
+            "Láti gbìmọ̀ fun relocation/redeployment, wọlé sí portal NYSC, lọ sí apakan Redeployment, yan ìdí rẹ, àti fi àwọn ìwé ìdánimọ̀ ranṣẹ́. \n"
+            "Gbogbo ìbéèrè ni a maa yẹ wo, kó sì lè gba ọsẹ́ méjì sí mẹ́rin."
+        ),
+        'cds': (
+            "CDS jẹ́ apakan pàtàkì ti iṣẹ́ NYSC. O gbọdọ̀ darapọ̀ mọ́ ẹgbẹ CDS kan, kí o sì kópa nínú ìpàdé ọ̀sẹ̀ kan."
+        ),
+        'callup': (
+            "Lẹ́tà call-up NYSC yoo wà lẹ́yìn tí ile-ẹ̀kọ́ rẹ bá fi ìwé rẹ sílẹ̀. Wọlé, lọ sí apakan Call-Up Letter, kí o sì ṣe éjẹ̀."
+        ),
+        'exemption': (
+            "O lè ní ẹtọ ìmúkò NYSC bí o bá jẹ́ ọgọ́rùn-ún ọdún mẹ́tàlá tàbí ẹ̀ka ẹ̀kọ́ rẹ bá jẹ́ ti ilu mìíràn tí NUC kò mọ̀."
+        ),
     },
     'ha': {
         'default': (
@@ -111,6 +132,21 @@ NYSC_KNOWLEDGE = {
         ),
         'allowance': "Alawus-alawus na wata-wata na NYSC shine ₦77,000 kamar yadda gwamnatin tarayya ta amince.",
         'registration': "Don yin rajista a NYSC, ziyarci shafin yanar gizon portal.nysc.org.ng ka bi umarnin da aka bayar.",
+        'camp': (
+            "Don abin da za a shirya domin sansanin NYSC, tabbatar akwai shorts da T-shirt na fari, takalma, kayan wanka, da magunguna idan kana bukata."
+        ),
+        'relocation': (
+            "Don neman canji wurin aiki, shiga portal, je zuwa Redeployment, zaɓi dalili, ka kuma aika takardun da suka dace."
+        ),
+        'cds': (
+            "CDS babban sashi ne na shekarar hidima. Dole ne ka shiga rukuni na CDS kuma ka halarci taron mako-mako."
+        ),
+        'callup': (
+            "Ana ba da wasikar call-up bayan an kammala tsari. Shiga portal, je Call-Up Letter, sannan ka zazzagewa."
+        ),
+        'exemption': (
+            "Kana iya samun keɓancewa idan kana 30 shekaru ko fiye, ko ka kammala karatun ƙasashen waje."
+        ),
     },
     'ig': {
         'default': (

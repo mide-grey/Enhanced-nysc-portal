@@ -204,10 +204,12 @@ function sendMessage() {
     .then((res) => res.json())
     .then((data) => {
       removeTyping();
+      const reply = data.ai_response || data.response || getResponse(text);
       if (data.error) {
-        addMessage("Sorry, I encountered an error: " + data.error, "ai");
+        addMessage(reply, "ai");
+        console.error("Server error:", data.error);
       } else {
-        addMessage(data.ai_response || data.ai_response, "ai");
+        addMessage(reply, "ai");
       }
       isTyping = false;
       document.getElementById("sendBtn").disabled = false;
@@ -215,10 +217,8 @@ function sendMessage() {
     .catch((err) => {
       removeTyping();
       console.error("Error:", err);
-      addMessage(
-        "Sorry, I couldn't reach the server. Please try again.",
-        "ai"
-      );
+      const fallbackReply = getResponse(text);
+      addMessage(fallbackReply, "ai");
       isTyping = false;
       document.getElementById("sendBtn").disabled = false;
     });
