@@ -4,9 +4,12 @@ AI response generation logic.
 Falls back to rule-based responses when OpenAI key is not set.
 """
 
+import logging
 import time
 import re
 from django.conf import settings
+
+logger = logging.getLogger(__name__)
 
 # ─────────────────────────────────────────────────────────────────────────────
 #  Rule-based knowledge base (fallback when no OpenAI key)
@@ -271,7 +274,9 @@ def get_ai_response(message: str, language: str = 'en', conversation_history: li
                 'source':        'openai',
             }
         except Exception as e:
-            pass  # fall through to rule-based
+            logger.warning(
+                'OpenAI chatbot failed; falling back to rule-based responses: %s', e)
+            # fall through to rule-based fallback
 
     # ── Rule-based fallback ───────────────────────────────────
     content = get_rule_based_response(message, language)
